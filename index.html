@@ -7,27 +7,43 @@
   </head>
   <body>
     <header>
-      <!-- (nav>a+ul>li*3>a)+ul>li*3>a -->
-      <nav>
+      <nav aria-label="Main">
         <a href="./index.html">yachtjet</a>
         <ul>
           <li><a href="./index.html">About</a></li>
-          <li><a href="">Yachts</a></li>
-          <li><a href="">Reviews</a></li>
+          <li><a href="#">Yachts</a></li>
+          <li><a href="#">Reviews</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul aria-label="Social links">
         <li>
-          <a href="https://www.instagram.com/" target="_blank">instagram</a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >instagram</a
+          >
         </li>
-        <li><a href="https://www.youtube.com/" target="_blank">youtube</a></li>
         <li>
-          <a href="https://www.facebook.com/" target="_blank">facebook</a>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >youtube</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >facebook</a
+          >
         </li>
       </ul>
     </header>
+
     <main>
-      <!-- section>h1+p+button -->
       <section>
         <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
         <p>
@@ -37,7 +53,7 @@
         </p>
         <button type="button">Yacht rental</button>
       </section>
-      <!-- section>h2+h3+p+img -->
+
       <section>
         <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
         <h3>
@@ -46,29 +62,32 @@
         </h3>
         <p>
           Take a look at our selection below and choose the yacht that matches
-          your needs and preferences.No matter which yacht you choose, our
+          your needs and preferences. No matter which yacht you choose, our
           experienced crew will ensure that your journey is smooth and
           enjoyable. Book now and get ready for an unforgettable adventure on
           the high seas.
         </p>
-        <img src="./images/yachtjet-fleet.png" alt="yacht" width="1340" />
+        <img
+          src="./images/yachtjet-fleet.png"
+          alt="YachtJet fleet at sea"
+          width="1340"
+        />
       </section>
 
-      <!-- section>h2+(ul>li*3>img+h3+p+(ul>li*5>p*2))+button -->
       <section>
         <h2>Choose your dream yacht and sail away into the sunset</h2>
         <ul>
           <li>
-            <img src="./images/arrow.png" alt="arrow" width="360" />
+            <img src="./images/arrow.png" alt="Arrow yacht" width="360" />
             <h3>Arrow</h3>
             <p>luxury yachts</p>
             <ul>
               <li>
                 <p>length</p>
-                <p>48m(155ft)</p>
+                <p>48 m (155 ft)</p>
               </li>
               <li>
-                <p>bilder</p>
+                <p>builder</p>
                 <p>Admiral</p>
               </li>
               <li>
@@ -85,14 +104,19 @@
               </li>
             </ul>
           </li>
+
           <li>
-            <img src="./images/benetti.png" alt="benetti" width="360" />
-            <h3>benetti oasis 40M BO122</h3>
+            <img
+              src="./images/benetti.png"
+              alt="Benetti Oasis 40M BO122 yacht"
+              width="360"
+            />
+            <h3>Benetti Oasis 40M BO122</h3>
             <p>luxury yachts</p>
             <ul>
               <li>
                 <p>length</p>
-                <p>41m (133ft)</p>
+                <p>41 m (133 ft)</p>
               </li>
               <li>
                 <p>shipyard</p>
@@ -112,30 +136,11 @@
               </li>
             </ul>
           </li>
-          <li>
-            <img src="./images/belle-anna.png" alt="belle-anna" width="360" />
-            <h3>belle-anna 50m</h3>
-            <p>luxury yachts</p>
-            <ul>
-              <li>
-                <p>length</p>
-                <p>50m</p>
-              </li>
-              <li>
-                <p>shipyard</p>
-                <p>belle-anna</p>
-              </li>
-              <li>
-                <p>build</p>
-                <p>2024</p>
-              </li>
-              <li>
-                <p>guests</p>
-                <p>4 in 15 cabins</p>
-              </li>
-              <li>
-                <p>price</p>
-                <p>€29,000,000</p>
-              </li>
+        </ul>
+        <button type="button">Show more</button>
+      </section>
+    </main>
+
+    <footer></footer>
   </body>
 </html>
